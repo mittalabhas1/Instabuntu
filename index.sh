@@ -7,7 +7,10 @@ apt-get upgrade
  
 # ZSH
 apt-get install curl
+apt-get install zsh
 curl -L http://install.ohmyz.sh | sh
+chsh -s /bin/zsh
+zsh
  
 # Node
 apt-get --purge remove node
@@ -18,8 +21,9 @@ apt-get install nodejs-legacy
 # npm
 apt get install npm
  
-# Git
+# Git and related softwares
 apt-get install git-core
+apt-get install gitg
  
 # Generating SSH Keys
 mkdir ~/.ssh
