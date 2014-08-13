@@ -21,6 +21,9 @@ apt-get install nodejs-legacy
 # npm
 apt get install npm
  
+# PIP
+apt-get install python-pip
+ 
 # Git and related softwares
 apt-get install git-core
 apt-get install gitg
@@ -37,13 +40,22 @@ apt-get update
 apt-get install sublime-text
  
 # Yeoman
-npm install -g yo # yo
-npm install -g bower # bower
-npm install -g grunt-cli bower # grunt
-npm install -g generator-webapp # Yeoman generator for Webapp
-npm install -g generator-angular # Yeoman generator for AngularJS
+npm install -g yo
+npm install -g bower
+npm install -g grunt-cli bower
+npm install -g generator-webapp
+npm install -g generator-angular
  
-#Sass
+# Sass
 apt-get install ruby-full
 gem install sass
 gem install compass
+ 
+# Python packages
+pip install Django==1.6.5
+pip install djangorestframework
+pip install markdown
+pip install django-filter
+ 
+# VLC
+apt-get install vlc browser-plugin-vlc
