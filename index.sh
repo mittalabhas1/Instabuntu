@@ -4,6 +4,10 @@ sudo -i
 # Update and Upgrade apt-get
 apt-get update
 apt-get upgrade
+
+# Git and related softwares
+apt-get install git-core
+apt-get install gitg
  
 # ZSH
 apt-get install curl
@@ -23,11 +27,7 @@ apt get install npm
  
 # PIP
 apt-get install python-pip
- 
-# Git and related softwares
-apt-get install git-core
-apt-get install gitg
- 
+  
 # Generating SSH Keys
 mkdir ~/.ssh
 chmod 700 ~/.ssh
