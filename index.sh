@@ -6,12 +6,12 @@ apt-get update
 apt-get upgrade
 
 # Git and related softwares
-apt-get install git-core
-apt-get install gitg
+apt-get install git-core -y
+apt-get install gitg -y
  
 # ZSH
-apt-get install curl
-apt-get install zsh
+apt-get install curl -y
+apt-get install zsh -y
 curl -L http://install.ohmyz.sh | sh
 chsh -s /bin/zsh
 zsh
@@ -20,24 +20,18 @@ zsh
 apt-get --purge remove node
 apt-get --purge remove nodejs-legacy
 apt-get --purge remove nodejs
-apt-get install nodejs-legacy
+apt-get install nodejs-legacy -y
  
 # npm
-apt get install npm
+apt get install npm -y
  
 # PIP
-apt-get install python-pip
-  
-# Generating SSH Keys
-mkdir ~/.ssh
-chmod 700 ~/.ssh
-ssh-keygen -t rsa -b 4096
-cat ~/.ssh/id_rsa.pub >> ~/Desktop/ssh_pubKey
+apt-get install python-pip -y
  
 # Sublime Text 2 
 add-apt-repository ppa:webupd8team/sublime-text-2
 apt-get update
-apt-get install sublime-text
+apt-get install sublime-text -y
  
 # Yeoman
 npm install -g yo
@@ -47,7 +41,7 @@ npm install -g generator-webapp
 npm install -g generator-angular
  
 # Sass
-apt-get install ruby-full
+apt-get install ruby-full -y
 gem install sass
 gem install compass
  
@@ -58,4 +52,12 @@ pip install markdown
 pip install django-filter
  
 # VLC
-apt-get install vlc browser-plugin-vlc
+apt-get install vlc browser-plugin-vlc -y
+
+# Generating SSH Keys
+exit
+mkdir ~/.ssh
+chmod 700 ~/.ssh
+ssh-keygen -t rsa -b 4096 && cat ~/.ssh/id_rsa.pub >> ~/Desktop/ssh_pubKey && clear && echo "You are done :)"
+
+#End of installation
