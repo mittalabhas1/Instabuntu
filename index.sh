@@ -50,6 +50,7 @@ pip install Django==1.6.5
 pip install djangorestframework
 pip install markdown
 pip install django-filter
+pip install virtualenv
  
 # VLC
 apt-get install vlc browser-plugin-vlc -y
