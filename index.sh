@@ -23,7 +23,7 @@ apt-get --purge remove nodejs
 apt-get install nodejs-legacy -y
  
 # npm
-apt get install npm -y
+apt-get install npm -y
  
 # PIP
 apt-get install python-pip -y
