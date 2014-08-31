@@ -55,6 +55,9 @@ pip install virtualenv
 # VLC
 apt-get install vlc browser-plugin-vlc -y
 
+# Xpad
+apt-get install xpad
+
 # Generating SSH Keys
 exit
 mkdir ~/.ssh
