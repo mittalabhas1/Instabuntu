@@ -36,6 +36,7 @@ apt-get install sublime-text -y
 # Yeoman
 npm install -g yo
 npm install -g bower
+npm install -g gulp
 npm install -g grunt-cli bower
 npm install -g generator-webapp
 npm install -g generator-angular
