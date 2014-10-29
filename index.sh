@@ -32,6 +32,11 @@ apt-get install python-pip -y
 add-apt-repository ppa:webupd8team/sublime-text-2
 apt-get update
 apt-get install sublime-text -y
+
+# Android Studio
+apt-add-repository ppa:paolorotolo/android-studio
+apt-get update
+apt-get install android-studio -y
  
 # Yeoman
 npm install -g yo
