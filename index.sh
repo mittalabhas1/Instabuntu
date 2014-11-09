@@ -45,6 +45,8 @@ npm install -g gulp
 npm install -g grunt-cli bower
 npm install -g generator-webapp
 npm install -g generator-angular
+npm install -g generator-gulp-webapp
+npm install -g generator-gulp-angular
  
 # Sass
 apt-get install ruby-full -y
