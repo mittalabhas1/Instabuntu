@@ -59,6 +59,8 @@ pip install djangorestframework
 pip install markdown
 pip install django-filter
 pip install virtualenv
+pip install selenium
+pip install splinter
  
 # VLC
 apt-get install vlc browser-plugin-vlc -y
